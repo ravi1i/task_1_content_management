@@ -1,0 +1,163 @@
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                    }
+                    
+                    body {
+                        background-image: url("photo-1478760329108-5c3ed9d495a0.jpg");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: fixed;
+                        font-family: "Open sans", sans-serif;
+                        color: white;
+                    }
+                    
+                    header img {
+                        padding: 0vw;
+                        align-items: center;
+                        padding-top: 0vw;
+                        padding-inline-start: 0vw;
+                    }
+                    
+                    #titleinner {
+                        color: black;
+                        font-weight: bold;
+                        font-size: 3rem;
+                        color: #293462;
+                        margin-top: 2rem;
+                    }
+                    
+                    #innertext {
+                        color: white;
+                        margin-top: 2rem;
+                        font-family: 'Times New Roman', Times, serif;
+                        font-size: 1.5rem;
+                    }
+                    
+                    #about {
+                        text-align: center;
+                        font-size: 4rem;
+                        color: #c9c9ca;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        font-weight: bold;
+                        margin-top: -1rem;
+                        margin-left: -200px;
+                        padding-top: 40px;
+                    }
+                    
+                    #about1 {
+                        font-size: 1.5rem;
+                        margin-top: 1.5rem;
+                        text-align: center;
+                        color: #C7EEFF;
+                    }
+                    
+                    #text1 {
+                        color: #DE6B35;
+                        text-align: center;
+                    }
+                    
+                    .parallax {
+                        /* The image used */
+                        background-image: url('feature-cover.png');
+                        /* Full height */
+                        height: 100%;
+                        /* Create the parallax scrolling effect */
+                        background-attachment: fixed;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+                    
+                    @media only screen and (max-device-width: 1366px) {
+                        .parallax {
+                            background-attachment: scroll;
+                        }
+                    }
+                    
+                    .container {
+                        background-image: url(b\ dark-black-wallpapers.jpg);
+                        background-position: center;
+                        background-attachment: inherit;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        padding-top: 15px;
+                        width: auto;
+                        background-color: #f2f2f2;
+                        padding: 0px 15px 10px 15px;
+                        border: 2px solid lightgray;
+                        border-radius: 10px 10px;
+                        box-shadow: 5px 5px 15px 5px rgb(248, 246, 246);
+                        margin-top: 4rem;
+                    }
+                    /* CSS for styling the content management tool */
+                    
+                    .editor {
+                        background-color: grey;
+                        width: 25rem;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding: 20px;
+                        margin-left: 29.5rem;
+                        margin-top: 1.5rem;
+                        border-radius: 7%;
+                        text-shadow: #C7EEFF;
+                    }
+                    
+                    #title {
+                        box-shadow: #000000;
+                        border-radius: 1rem;
+                        height: 3rem;
+                        margin: 1%;
+                        width: 22rem;
+                        background-color: black;
+                    }
+                    
+                    #image {
+                        box-shadow: #000000;
+                        border-radius: 1rem;
+                        height: 3rem;
+                        background-color: black;
+                        width: 22rem;
+                    }
+                    
+                    #video {
+                        box-shadow: 3px #000000;
+                        border-radius: 1rem;
+                        height: 3rem;
+                        background-color: black;
+                        width: 22rem;
+                    }
+                    
+                    #content {
+                        box-shadow: 3px #000000;
+                        border-radius: 1rem;
+                        height: 200px;
+                        background-color: black;
+                        width: 22rem;
+                    }
+                    
+                    .editor input[type="text"],
+                    .editor textarea {
+                        margin-bottom: 10px;
+                        width: 300px;
+                        padding: 5px;
+                    }
+                    
+                    .editor button {
+                        padding: 10px 15px;
+                        background-color: rgb(117, 115, 111);
+                        color: white;
+                        border: none;
+                        cursor: pointer;
+                        border-radius: 1rem;
+                        width: 10rem;
+                    }
+                    
+                    .preview {
+                        margin-top: 100px;
+                        height: auto;
+                    }
